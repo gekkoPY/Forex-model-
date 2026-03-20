@@ -10,6 +10,6 @@ The original engine was optimized for the 15-minute timeframe. By compounding a 
 | **Jan 2022 – Dec 2023** | M15 | 1.5 | 1.0% | **+106.00%** |
 | **Jan 2023 – Dec 2024** | M15 | 1.5 | 1.0% | **+141.27%** |
 | **Jan 2024 – Dec 2025** | M15 | 1.5 | 1.0% | **+150.00%** |
-| **Jan 2025 – Mar 2026** | M15 | 1.5 | 1.0% | **[22,60]%** |
+| **Jan 2025 – Mar 2026** | M15 | 1.5 | 1.0% | **+22,60%** |
 
 *Note: The M15 strategy relies on an asymmetric risk-to-reward payout structure. The win rate hovers in the mid-30s, which is mathematically offset by capturing massive outlier reversion snaps, creating a heavily positive expectancy curve. (Performance assumes zero-spread routing; retail spread friction will require timeframe up-scaling to H4).*
