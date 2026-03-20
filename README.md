@@ -22,6 +22,7 @@ This algorithm relies on a multi-layered filtering system, ensuring it only exec
 * **Compounding Risk Management:** Position sizing is mathematically calculated on a per-trade basis. The bot calculates the exact micro-lot size required to risk strictly **1.0%** of total account equity based on the dynamic ATR stop-loss distance.
 * **Interactive Telemetry:** Includes an integrated `plotly` charting engine that automatically generates a multi-panel HTML backtest report, plotting the equity curve, Profit/Loss scatter, Z-score oscillator, and precise execution markers over price action.
 
+Markdown
 ## 🛠️ Installation & Usage
 
 1. **Prerequisites:** You must have [MetaTrader 5](https://www.metatrader5.com/) installed and running on your machine.
@@ -29,7 +30,7 @@ This algorithm relies on a multi-layered filtering system, ensuring it only exec
    ```bash
    pip install MetaTrader5 pandas numpy plotly
    
-3.Execution: Ensure your MT5 terminal has historical M15 data downloaded for your target symbol (default: EURUSD.pro). Run the script:
+ Execution: Ensure your MT5 terminal has historical M15 data downloaded for your target symbol (default: EURUSD.pro). Run the script:
 
 Bash
 python main.py
