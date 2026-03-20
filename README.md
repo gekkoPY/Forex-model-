@@ -26,15 +26,20 @@ Markdown
 ## 🛠️ Installation & Usage
 
 1. **Prerequisites:** You must have [MetaTrader 5](https://www.metatrader5.com/) installed and running on your machine.
+
 2. **Python Dependencies:** Install the required quantitative libraries via terminal:
-   ```bash
-   pip install MetaTrader5 pandas numpy plotly
-   
- Execution: Ensure your MT5 terminal has historical M15 data downloaded for your target symbol (default: EURUSD.pro). Run the script:
 
-Bash
-python main.py
-Diagnostics: Upon completion, the script outputs a rigorous console autopsy (Win Rate, Drawdown, Average Pip Capture) and opens algorithmic_backtest_report.html in your web browser for visual trade inspection.
+    ```bash
+    pip install MetaTrader5 pandas numpy plotly
+    ```
 
-⚠️ Disclaimer
-This repository is for educational and quantitative research purposes only. Algorithmic trading involves significant risk. The author is not responsible for any financial losses incurred from deploying this logic in live market environments.
+3. **Execution:** Ensure your MT5 terminal has historical M15 data downloaded for your target symbol (default: `EURUSD.pro`). Run the script:
+
+    ```bash
+    python main.py
+    ```
+
+4. **Diagnostics:** Upon completion, the script outputs a rigorous console autopsy (Win Rate, Drawdown, Average Pip Capture) and opens `algorithmic_backtest_report.html` in your web browser for visual trade inspection.
+
+## ⚠️ Disclaimer
+*This repository is for educational and quantitative research purposes only. Algorithmic trading involves significant risk. The author is not responsible for any financial losses incurred from deploying this logic in live market environments.*
